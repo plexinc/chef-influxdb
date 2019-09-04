@@ -21,7 +21,6 @@ default['influxdb']['shasums'] = {
 default['influxdb']['client']['cli']['enable'] = false
 default['influxdb']['client']['ruby']['enable'] = false
 default['influxdb']['client']['ruby']['version'] = nil
-default['influxdb']['handler']['version'] = '0.1.4'
 
 # For influxdb versions >= 1.0.x
 default['influxdb']['lib_file_path'] = '/var/lib/influxdb'
